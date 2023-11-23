@@ -13,32 +13,24 @@ class BYBTabBarController: UITabBarController {
         super.viewDidLoad()
         UITabBar.appearance().tintColor = .white
         
-        viewControllers = [
-            createMainNavigationController(),
-            createTodosNavigationController(),
-            createHistoryNavigationController()
-        ]
+        self.setUpTabs()
     }
     
-    private func createMainNavigationController() -> UINavigationController {
-        let vc = BYBMainViewController()
-        vc.tabBarItem = UITabBarItem(title: "Main", image: BYBImages.house, tag: 0)
 
-        return UINavigationController(rootViewController: vc)
+    
+    private func setUpTabs(){
+        let main = createNav(with: "Main", and: BYBImages.house, vc: BYBMainViewController())
+        let todos = createNav(with: "Todos", and: BYBImages.checklist, vc: BYBTodosViewController())
+        let history = createNav(with: "History", and: BYBImages.listClipboard, vc: BYBHistoryViewController())
+        self.setViewControllers([main,todos,history], animated: true)
     }
     
-    private func createTodosNavigationController() -> UINavigationController {
-        let vc = BYBTodosViewController()
-        vc.tabBarItem = UITabBarItem(title: "Todos", image: BYBImages.checklist, tag: 1)
-
-        return UINavigationController(rootViewController: vc)
+    private func createNav (with title : String, and image : UIImage? , vc: UIViewController) -> UINavigationController {
+        let nav = UINavigationController(rootViewController: vc)
+        
+        nav.tabBarItem.title = title
+        nav.tabBarItem.image = image
+        
+        return nav
     }
-    
-    private func createHistoryNavigationController() -> UINavigationController {
-        let vc = BYBHistoryViewController()
-        vc.tabBarItem = UITabBarItem(title: "History", image: BYBImages.listClipboard, tag: 2)
-
-        return UINavigationController(rootViewController: vc)
-    }
-    
 }

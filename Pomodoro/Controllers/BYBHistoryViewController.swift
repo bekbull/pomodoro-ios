@@ -6,6 +6,23 @@
 //
 
 import UIKit
+import SwiftUI
+struct BYBHistoryViewControllerPreview : UIViewControllerRepresentable {
+    
+    let viewControllerGenerator : () -> UIViewController
+    init(viewControllerGenerator: @escaping () -> UIViewController) {
+        self.viewControllerGenerator = viewControllerGenerator
+    }
+    
+    func makeUIViewController(context: Context) -> some UIViewController {
+        viewControllerGenerator()
+    }
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
+        
+    }
+    
+    
+}
 
 class BYBHistoryViewController: UIViewController {
     
@@ -15,3 +32,13 @@ class BYBHistoryViewController: UIViewController {
     }
     
 }
+struct BYBHistoryViewControllerProvider : PreviewProvider {
+    static var previews : some View {
+        BYBMainViewControllerPreview{
+            BYBMainViewController()
+        }.edgesIgnoringSafeArea(.all)
+    }
+    
+}
+
+
