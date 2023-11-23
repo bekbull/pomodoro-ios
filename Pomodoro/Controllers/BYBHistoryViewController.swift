@@ -63,7 +63,7 @@ class BYBHistoryViewController: UIViewController, UITableViewDataSource, UITable
            [Focus(type: .focusTime), Focus(type: .breakTime), Focus(type: .session)]
        ]
 
-            // Additional sections with the same structure
+            
 
     
     override func viewDidLoad() {
@@ -76,7 +76,8 @@ class BYBHistoryViewController: UIViewController, UITableViewDataSource, UITable
         tableView.register(MySectionHeader.self, forHeaderFooterViewReuseIdentifier: "SectionHeader")
         view.addSubview(tableView)
         tableView.pin(to: view)
-        tableView.backgroundColor = UIColor.gray
+        tableView.backgroundColor = UIColor.darkGray
+        tableView.separatorColor = UIColor.white
     }
     func numberOfSections(in tableView: UITableView) -> Int {
             return headers.count
@@ -89,7 +90,7 @@ class BYBHistoryViewController: UIViewController, UITableViewDataSource, UITable
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
         // Set the background color of the cell to black
-        cell.backgroundColor = UIColor.gray
+        cell.backgroundColor = UIColor.darkGray
 
         let focusItem = data[indexPath.section][indexPath.row]
 
@@ -104,7 +105,7 @@ class BYBHistoryViewController: UIViewController, UITableViewDataSource, UITable
         timeLabel.textColor = UIColor.white
 
         // Set the background color of the time label to black
-        timeLabel.backgroundColor = UIColor.gray
+        timeLabel.backgroundColor = UIColor.darkGray
 
         cell.contentView.addSubview(timeLabel)
 
@@ -129,9 +130,6 @@ class BYBHistoryViewController: UIViewController, UITableViewDataSource, UITable
 }
 
 
-
-
-
 struct BYBHistoryViewControllerProvider : PreviewProvider {
     static var previews : some View {
         BYBHistoryViewControllerPreview{
@@ -148,6 +146,14 @@ class MySectionHeader: UITableViewHeaderFooterView {
         label.font = UIFont.boldSystemFont(ofSize: 20)
         return label
     }()
+
+    
+    var isSectionSelected: Bool = false {
+        didSet {
+            // Update the background color when the selected state changes
+            contentView.backgroundColor = isSectionSelected ? UIColor.white : UIColor.black
+        }
+    }
 
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)
@@ -166,5 +172,10 @@ class MySectionHeader: UITableViewHeaderFooterView {
             titleLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
             titleLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
         ])
+
+        // Set the initial background color
+        contentView.backgroundColor = UIColor.darkGray
     }
 }
+
+
