@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19403C6B2B0F93AD003AD03A /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19403C6A2B0F93AD003AD03A /* UIView+Ext.swift */; };
 		BC4BEF312B0DD23000068049 /* BYBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF302B0DD23000068049 /* BYBTabBarController.swift */; };
 		BC4BEF332B0DD2BA00068049 /* BYBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF322B0DD2BA00068049 /* BYBMainViewController.swift */; };
 		BC4BEF352B0DD2E200068049 /* BYBTodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF342B0DD2E200068049 /* BYBTodosViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19403C6A2B0F93AD003AD03A /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		BC4BEF302B0DD23000068049 /* BYBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTabBarController.swift; sourceTree = "<group>"; };
 		BC4BEF322B0DD2BA00068049 /* BYBMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBMainViewController.swift; sourceTree = "<group>"; };
 		BC4BEF342B0DD2E200068049 /* BYBTodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTodosViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19403C692B0F9378003AD03A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19403C6A2B0F93AD003AD03A /* UIView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		BC4BEF2D2B0DCD4E00068049 /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		BCB884BD2B076B1A00FDC187 /* Pomodoro */ = {
 			isa = PBXGroup;
 			children = (
+				19403C692B0F9378003AD03A /* Extensions */,
 				BC4BEF382B0DD7FC00068049 /* Utils */,
 				BC4BEF2F2B0DCE6A00068049 /* Controllers */,
 				BC4BEF2E2B0DCE6300068049 /* Views */,
@@ -182,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19403C6B2B0F93AD003AD03A /* UIView+Ext.swift in Sources */,
 				BC4BEF312B0DD23000068049 /* BYBTabBarController.swift in Sources */,
 				BC4BEF352B0DD2E200068049 /* BYBTodosViewController.swift in Sources */,
 				BC4BEF372B0DD30C00068049 /* BYBHistoryViewController.swift in Sources */,
