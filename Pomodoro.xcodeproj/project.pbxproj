@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19403C6B2B0F93AD003AD03A /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19403C6A2B0F93AD003AD03A /* UIView+Ext.swift */; };
+		19403C6D2B0FBB6D003AD03A /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19403C6C2B0FBB6D003AD03A /* TestView.swift */; };
 		BC4BEF312B0DD23000068049 /* BYBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF302B0DD23000068049 /* BYBTabBarController.swift */; };
 		BC4BEF332B0DD2BA00068049 /* BYBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF322B0DD2BA00068049 /* BYBMainViewController.swift */; };
 		BC4BEF352B0DD2E200068049 /* BYBTodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF342B0DD2E200068049 /* BYBTodosViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		19403C6A2B0F93AD003AD03A /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		19403C6C2B0FBB6D003AD03A /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		BC4BEF302B0DD23000068049 /* BYBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTabBarController.swift; sourceTree = "<group>"; };
 		BC4BEF322B0DD2BA00068049 /* BYBMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBMainViewController.swift; sourceTree = "<group>"; };
 		BC4BEF342B0DD2E200068049 /* BYBTodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTodosViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				BC4BEF2D2B0DCD4E00068049 /* Support */,
 				BCB884C42B076B1A00FDC187 /* Main.storyboard */,
 				BCB884CC2B076B1C00FDC187 /* Info.plist */,
+				19403C6C2B0FBB6D003AD03A /* TestView.swift */,
 			);
 			path = Pomodoro;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				BC4BEF372B0DD30C00068049 /* BYBHistoryViewController.swift in Sources */,
 				BC4BEF332B0DD2BA00068049 /* BYBMainViewController.swift in Sources */,
 				BCB884BF2B076B1A00FDC187 /* AppDelegate.swift in Sources */,
+				19403C6D2B0FBB6D003AD03A /* TestView.swift in Sources */,
 				BCB884C12B076B1A00FDC187 /* SceneDelegate.swift in Sources */,
 				BC4BEF3A2B0DD80600068049 /* Constants.swift in Sources */,
 			);
@@ -352,7 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4P845CNK53;
+				DEVELOPMENT_TEAM = N2582WL279;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pomodoro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -381,7 +385,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4P845CNK53;
+				DEVELOPMENT_TEAM = N2582WL279;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pomodoro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

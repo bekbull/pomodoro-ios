@@ -9,12 +9,14 @@ import Foundation
 import UIKit
 
 extension UIView {
-    
-    func pin (to superView : UIView) {
-        translatesAutoresizingMaskIntoConstraints = false
-        topAnchor.constraint(equalTo: superView.topAnchor).isActive = true
-        leadingAnchor.constraint(equalTo: superView.leadingAnchor).isActive = true
-        trailingAnchor.constraint(equalTo: superview!.trailingAnchor).isActive = true
-        bottomAnchor.constraint(equalTo: superView.bottomAnchor).isActive = true
+    func pin(to view: UIView) {
+        translatesAutoresizingMaskIntoConstraints = false 
+        NSLayoutConstraint.activate([
+            topAnchor.constraint(equalTo: view.topAnchor),
+            leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
     }
 }
+

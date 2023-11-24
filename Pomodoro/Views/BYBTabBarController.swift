@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class BYBTabBarController: UITabBarController {
     
@@ -19,7 +20,7 @@ class BYBTabBarController: UITabBarController {
 
     
     private func setUpTabs(){
-        let main = createNav(with: "Main", and: BYBImages.house, vc: BYBMainViewController())
+        let main = createNav(with: "Main", and: BYBImages.house, vc: BYBMainViewController()) //Comment Just for fun (check) try vc: UIHostingController(rootview:TestView())
         let todos = createNav(with: "Todos", and: BYBImages.checklist, vc: BYBTodosViewController())
         let history = createNav(with: "History", and: BYBImages.listClipboard, vc: BYBHistoryViewController())
         self.setViewControllers([main,todos,history], animated: true)

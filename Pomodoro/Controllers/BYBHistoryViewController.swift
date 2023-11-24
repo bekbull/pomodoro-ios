@@ -12,7 +12,7 @@ enum FocusType: String {
     case breakTime = "Break time"
     case session = "Session"
 
-    // Associated time for each focus type
+    
     var time: String {
         switch self {
         case .focusTime:
@@ -69,15 +69,20 @@ class BYBHistoryViewController: UIViewController, UITableViewDataSource, UITable
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.isTranslucent = true
         tableView.dataSource = self
         tableView.delegate = self
-        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         tableView.register(MySectionHeader.self, forHeaderFooterViewReuseIdentifier: "SectionHeader")
         view.addSubview(tableView)
         tableView.pin(to: view)
         tableView.backgroundColor = UIColor.darkGray
         tableView.separatorColor = UIColor.white
+
+       
+       
     }
     func numberOfSections(in tableView: UITableView) -> Int {
             return headers.count
@@ -97,7 +102,6 @@ class BYBHistoryViewController: UIViewController, UITableViewDataSource, UITable
         // Set the title on the left side with white text color
         cell.textLabel?.text = focusItem.type.rawValue
         cell.textLabel?.textColor = UIColor.white
-
         // Set the time on the right side with white text color
         let timeLabel = UILabel()
         timeLabel.text = focusItem.type.time

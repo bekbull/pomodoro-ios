@@ -12,3 +12,4 @@ enum BYBImages {
     static let checklist = UIImage(systemName: "checklist")
     static let listClipboard = UIImage(systemName: "list.clipboard")
 }
+
