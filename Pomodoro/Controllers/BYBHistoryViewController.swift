@@ -78,8 +78,8 @@ class BYBHistoryViewController: UIViewController, UITableViewDataSource, UITable
         tableView.register(MySectionHeader.self, forHeaderFooterViewReuseIdentifier: "SectionHeader")
         view.addSubview(tableView)
         tableView.pin(to: view)
-        tableView.backgroundColor = UIColor.darkGray
-        tableView.separatorColor = UIColor.white
+        tableView.backgroundColor = UIColor.white
+        tableView.separatorColor = UIColor.darkGray
 
        
        
@@ -95,21 +95,21 @@ class BYBHistoryViewController: UIViewController, UITableViewDataSource, UITable
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
         // Set the background color of the cell to black
-        cell.backgroundColor = UIColor.darkGray
+        cell.backgroundColor = UIColor.white
 
         let focusItem = data[indexPath.section][indexPath.row]
 
         // Set the title on the left side with white text color
         cell.textLabel?.text = focusItem.type.rawValue
-        cell.textLabel?.textColor = UIColor.white
+        cell.textLabel?.textColor = UIColor.black
         // Set the time on the right side with white text color
         let timeLabel = UILabel()
         timeLabel.text = focusItem.type.time
         timeLabel.translatesAutoresizingMaskIntoConstraints = false
-        timeLabel.textColor = UIColor.white
+        timeLabel.textColor = UIColor.black
 
         // Set the background color of the time label to black
-        timeLabel.backgroundColor = UIColor.darkGray
+        timeLabel.backgroundColor = UIColor.white
 
         cell.contentView.addSubview(timeLabel)
 
@@ -146,7 +146,7 @@ class MySectionHeader: UITableViewHeaderFooterView {
     let titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = UIColor.white
+        label.textColor = UIColor.black
         label.font = UIFont.boldSystemFont(ofSize: 20)
         return label
     }()
@@ -178,7 +178,7 @@ class MySectionHeader: UITableViewHeaderFooterView {
         ])
 
         // Set the initial background color
-        contentView.backgroundColor = UIColor.darkGray
+        contentView.backgroundColor = UIColor.white
     }
 }
 

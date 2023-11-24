@@ -10,6 +10,6 @@ import UIKit
 enum BYBImages {
     static let house = UIImage(systemName: "house")
     static let checklist = UIImage(systemName: "checklist")
-    static let listClipboard = UIImage(systemName: "list.clipboard")
+    static let listClipboard = UIImage(systemName: "doc")
 }
 

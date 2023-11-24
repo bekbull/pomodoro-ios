@@ -11,11 +11,13 @@ class BYBTodosViewController: UIViewController, UITableViewDataSource, UITableVi
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.isTranslucent = true
         view.backgroundColor = .white
         title = "Task Management"
         setup()
 
-        // Register for keyboard notifications
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
 
@@ -24,7 +26,7 @@ class BYBTodosViewController: UIViewController, UITableViewDataSource, UITableVi
     }
 
     deinit {
-        // Unregister keyboard notifications when the view controller is deallocated
+        
         NotificationCenter.default.removeObserver(self)
     }
 
