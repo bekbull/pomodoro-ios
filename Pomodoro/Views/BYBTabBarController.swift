@@ -11,7 +11,7 @@ class BYBTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        UITabBar.appearance().tintColor = .white
+//        UITabBar.appearance().tintColor = .system
         
         viewControllers = [
             createMainNavigationController(),

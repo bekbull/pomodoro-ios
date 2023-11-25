@@ -12,6 +12,20 @@
 		BC4BEF352B0DD2E200068049 /* BYBTodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF342B0DD2E200068049 /* BYBTodosViewController.swift */; };
 		BC4BEF372B0DD30C00068049 /* BYBHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF362B0DD30C00068049 /* BYBHistoryViewController.swift */; };
 		BC4BEF3A2B0DD80600068049 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF392B0DD80600068049 /* Constants.swift */; };
+		BC4BEF3D2B0E50D700068049 /* BYBCapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF3C2B0E50D700068049 /* BYBCapsuleButton.swift */; };
+		BC4BEF402B0F1FCB00068049 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BC4BEF3F2B0F1FCB00068049 /* SnapKit */; };
+		BC4BEF422B0F1FCB00068049 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = BC4BEF412B0F1FCB00068049 /* SnapKit-Dynamic */; };
+		BCA989472B10D8FB001504CE /* BYBTagSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA989462B10D8FB001504CE /* BYBTagSettingsViewController.swift */; };
+		BCA989492B10D96E001504CE /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA989482B10D96E001504CE /* UIHelper.swift */; };
+		BCA9894D2B10DAA7001504CE /* BYBSettingsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA9894C2B10DAA7001504CE /* BYBSettingsCollectionCell.swift */; };
+		BCA989502B10DEFA001504CE /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA9894F2B10DEFA001504CE /* Tag.swift */; };
+		BCA989522B11A602001504CE /* FocusTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA989512B11A602001504CE /* FocusTime.swift */; };
+		BCA989542B11A873001504CE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA989532B11A873001504CE /* Settings.swift */; };
+		BCA989562B11A8BB001504CE /* BreakTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA989552B11A8BB001504CE /* BreakTime.swift */; };
+		BCA989592B11AE03001504CE /* BYBHeaderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA989582B11AE03001504CE /* BYBHeaderCollectionView.swift */; };
+		BCA9895D2B11BD27001504CE /* BYBCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA9895C2B11BD27001504CE /* BYBCircularProgressView.swift */; };
+		BCA9895F2B11BE76001504CE /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA9895E2B11BE76001504CE /* UIView+Ext.swift */; };
+		BCA989612B11C30D001504CE /* BYBTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA989602B11C30D001504CE /* BYBTimerViewController.swift */; };
 		BCB884BF2B076B1A00FDC187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB884BE2B076B1A00FDC187 /* AppDelegate.swift */; };
 		BCB884C12B076B1A00FDC187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB884C02B076B1A00FDC187 /* SceneDelegate.swift */; };
 		BCB884C62B076B1A00FDC187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB884C42B076B1A00FDC187 /* Main.storyboard */; };
@@ -25,6 +39,18 @@
 		BC4BEF342B0DD2E200068049 /* BYBTodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTodosViewController.swift; sourceTree = "<group>"; };
 		BC4BEF362B0DD30C00068049 /* BYBHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBHistoryViewController.swift; sourceTree = "<group>"; };
 		BC4BEF392B0DD80600068049 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BC4BEF3C2B0E50D700068049 /* BYBCapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBCapsuleButton.swift; sourceTree = "<group>"; };
+		BCA989462B10D8FB001504CE /* BYBTagSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTagSettingsViewController.swift; sourceTree = "<group>"; };
+		BCA989482B10D96E001504CE /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		BCA9894C2B10DAA7001504CE /* BYBSettingsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBSettingsCollectionCell.swift; sourceTree = "<group>"; };
+		BCA9894F2B10DEFA001504CE /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		BCA989512B11A602001504CE /* FocusTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTime.swift; sourceTree = "<group>"; };
+		BCA989532B11A873001504CE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		BCA989552B11A8BB001504CE /* BreakTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakTime.swift; sourceTree = "<group>"; };
+		BCA989582B11AE03001504CE /* BYBHeaderCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBHeaderCollectionView.swift; sourceTree = "<group>"; };
+		BCA9895C2B11BD27001504CE /* BYBCircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBCircularProgressView.swift; sourceTree = "<group>"; };
+		BCA9895E2B11BE76001504CE /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		BCA989602B11C30D001504CE /* BYBTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTimerViewController.swift; sourceTree = "<group>"; };
 		BCB884BB2B076B1A00FDC187 /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB884BE2B076B1A00FDC187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCB884C02B076B1A00FDC187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4BEF402B0F1FCB00068049 /* SnapKit in Frameworks */,
+				BC4BEF422B0F1FCB00068049 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +87,10 @@
 		BC4BEF2E2B0DCE6300068049 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BCA9895A2B11BD09001504CE /* ProgressView */,
+				BCA989572B11ADE7001504CE /* HeaderViews */,
+				BCA9894B2B10DA89001504CE /* Cells */,
+				BC4BEF3B2B0E50C100068049 /* Buttons */,
 				BC4BEF302B0DD23000068049 /* BYBTabBarController.swift */,
 			);
 			path = Views;
@@ -70,6 +102,8 @@
 				BC4BEF322B0DD2BA00068049 /* BYBMainViewController.swift */,
 				BC4BEF342B0DD2E200068049 /* BYBTodosViewController.swift */,
 				BC4BEF362B0DD30C00068049 /* BYBHistoryViewController.swift */,
+				BCA989462B10D8FB001504CE /* BYBTagSettingsViewController.swift */,
+				BCA989602B11C30D001504CE /* BYBTimerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -78,8 +112,53 @@
 			isa = PBXGroup;
 			children = (
 				BC4BEF392B0DD80600068049 /* Constants.swift */,
+				BCA989482B10D96E001504CE /* UIHelper.swift */,
+				BCA9895E2B11BE76001504CE /* UIView+Ext.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		BC4BEF3B2B0E50C100068049 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				BC4BEF3C2B0E50D700068049 /* BYBCapsuleButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		BCA9894B2B10DA89001504CE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BCA9894C2B10DAA7001504CE /* BYBSettingsCollectionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BCA9894E2B10DEEC001504CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BCA9894F2B10DEFA001504CE /* Tag.swift */,
+				BCA989512B11A602001504CE /* FocusTime.swift */,
+				BCA989532B11A873001504CE /* Settings.swift */,
+				BCA989552B11A8BB001504CE /* BreakTime.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCA989572B11ADE7001504CE /* HeaderViews */ = {
+			isa = PBXGroup;
+			children = (
+				BCA989582B11AE03001504CE /* BYBHeaderCollectionView.swift */,
+			);
+			path = HeaderViews;
+			sourceTree = "<group>";
+		};
+		BCA9895A2B11BD09001504CE /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				BCA9895C2B11BD27001504CE /* BYBCircularProgressView.swift */,
+			);
+			path = ProgressView;
 			sourceTree = "<group>";
 		};
 		BCB884B22B076B1A00FDC187 = {
@@ -101,6 +180,7 @@
 		BCB884BD2B076B1A00FDC187 /* Pomodoro */ = {
 			isa = PBXGroup;
 			children = (
+				BCA9894E2B10DEEC001504CE /* Models */,
 				BC4BEF382B0DD7FC00068049 /* Utils */,
 				BC4BEF2F2B0DCE6A00068049 /* Controllers */,
 				BC4BEF2E2B0DCE6300068049 /* Views */,
@@ -127,6 +207,10 @@
 			dependencies = (
 			);
 			name = Pomodoro;
+			packageProductDependencies = (
+				BC4BEF3F2B0F1FCB00068049 /* SnapKit */,
+				BC4BEF412B0F1FCB00068049 /* SnapKit-Dynamic */,
+			);
 			productName = Pomodoro;
 			productReference = BCB884BB2B076B1A00FDC187 /* Pomodoro.app */;
 			productType = "com.apple.product-type.application";
@@ -155,6 +239,9 @@
 				Base,
 			);
 			mainGroup = BCB884B22B076B1A00FDC187;
+			packageReferences = (
+				BC4BEF3E2B0F1FCB00068049 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = BCB884BC2B076B1A00FDC187 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -182,13 +269,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA989502B10DEFA001504CE /* Tag.swift in Sources */,
+				BCA989562B11A8BB001504CE /* BreakTime.swift in Sources */,
 				BC4BEF312B0DD23000068049 /* BYBTabBarController.swift in Sources */,
 				BC4BEF352B0DD2E200068049 /* BYBTodosViewController.swift in Sources */,
+				BCA989472B10D8FB001504CE /* BYBTagSettingsViewController.swift in Sources */,
+				BCA989592B11AE03001504CE /* BYBHeaderCollectionView.swift in Sources */,
+				BCA989542B11A873001504CE /* Settings.swift in Sources */,
+				BCA989492B10D96E001504CE /* UIHelper.swift in Sources */,
 				BC4BEF372B0DD30C00068049 /* BYBHistoryViewController.swift in Sources */,
+				BCA989612B11C30D001504CE /* BYBTimerViewController.swift in Sources */,
+				BCA989522B11A602001504CE /* FocusTime.swift in Sources */,
 				BC4BEF332B0DD2BA00068049 /* BYBMainViewController.swift in Sources */,
+				BCA9895D2B11BD27001504CE /* BYBCircularProgressView.swift in Sources */,
+				BCA9894D2B10DAA7001504CE /* BYBSettingsCollectionCell.swift in Sources */,
 				BCB884BF2B076B1A00FDC187 /* AppDelegate.swift in Sources */,
+				BCA9895F2B11BE76001504CE /* UIView+Ext.swift in Sources */,
 				BCB884C12B076B1A00FDC187 /* SceneDelegate.swift in Sources */,
 				BC4BEF3A2B0DD80600068049 /* Constants.swift in Sources */,
+				BC4BEF3D2B0E50D700068049 /* BYBCapsuleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -323,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -413,6 +512,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC4BEF3E2B0F1FCB00068049 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC4BEF3F2B0F1FCB00068049 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC4BEF3E2B0F1FCB00068049 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		BC4BEF412B0F1FCB00068049 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC4BEF3E2B0F1FCB00068049 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BCB884B32B076B1A00FDC187 /* Project object */;
 }
