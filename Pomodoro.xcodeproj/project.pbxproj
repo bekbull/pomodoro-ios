@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EE7EDA52B11BE8000FD4143 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7EDA42B11BE8000FD4143 /* ToDoTableViewCell.swift */; };
 		BC4BEF312B0DD23000068049 /* BYBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF302B0DD23000068049 /* BYBTabBarController.swift */; };
 		BC4BEF332B0DD2BA00068049 /* BYBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF322B0DD2BA00068049 /* BYBMainViewController.swift */; };
 		BC4BEF352B0DD2E200068049 /* BYBTodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BEF342B0DD2E200068049 /* BYBTodosViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EE7EDA42B11BE8000FD4143 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
 		BC4BEF302B0DD23000068049 /* BYBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTabBarController.swift; sourceTree = "<group>"; };
 		BC4BEF322B0DD2BA00068049 /* BYBMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBMainViewController.swift; sourceTree = "<group>"; };
 		BC4BEF342B0DD2E200068049 /* BYBTodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYBTodosViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				BC4BEF322B0DD2BA00068049 /* BYBMainViewController.swift */,
 				BC4BEF342B0DD2E200068049 /* BYBTodosViewController.swift */,
 				BC4BEF362B0DD30C00068049 /* BYBHistoryViewController.swift */,
+				5EE7EDA42B11BE8000FD4143 /* ToDoTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				BC4BEF312B0DD23000068049 /* BYBTabBarController.swift in Sources */,
 				BC4BEF352B0DD2E200068049 /* BYBTodosViewController.swift in Sources */,
 				BC4BEF372B0DD30C00068049 /* BYBHistoryViewController.swift in Sources */,
+				5EE7EDA52B11BE8000FD4143 /* ToDoTableViewCell.swift in Sources */,
 				BC4BEF332B0DD2BA00068049 /* BYBMainViewController.swift in Sources */,
 				BCB884BF2B076B1A00FDC187 /* AppDelegate.swift in Sources */,
 				BCB884C12B076B1A00FDC187 /* SceneDelegate.swift in Sources */,
